@@ -1,7 +1,7 @@
 <?php
 
-//require './core/Conexao.php';
-//require './core/ExceptionPdo.php';
+//require_once '../core/Conexao.php';
+require_once '../core/ExceptionPdo.php';
 
 class ProdutoModel{
     public static function show(){

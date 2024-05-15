@@ -52,5 +52,98 @@ class Conexao{
     }
 }
 
-require '../model/ProdutoModel.php';
-$model = new ProdutoModel();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//PARA TESTAR SE ESTA FUNCIONANDO
+
+// require_once '../model/ProdutoModel.php';
+
+// //var_dump(ProdutoModel::find(1));
+
+// // $produto = [ 
+// //     'descricao' => 'PRODUTO 2',
+// //     'valor' => '1520.34'
+// // ];
+
+// // $retorno = ProdutoModel::insert($produto);
+
+// // if($retorno){
+// //     echo 'Gravado com sucesso';
+// // }else{
+// //     echo 'Foi não';
+// // }
+
+// // $produto = [ 
+// //         'codigo' => 4,
+// //         'descricao' => 'PRODUTO 3',
+// //         'valor' => 1521.34
+// //  ];
+
+// //  $retorno = ProdutoModel::update($produto);
+
+// //  if($retorno){
+// //          echo 'Alterado';
+// //      }else{
+// //          echo 'Foi não';
+// //      }
+
+//  $retorno = ProdutoModel::delete(6);
+
+//  if($retorno){
+//          echo 'DELETADO';
+//      }else{
+//          echo 'Foi não';
+//      }
