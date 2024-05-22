@@ -8,7 +8,7 @@ class Core{
         $route_existe = false;
         $url = '/';
 
-        isset($_GET['url']) && $url .= $_GE['url'];
+        isset($_GET['url']) && $url .= $_GET['url'];
 
         $url != '/' && $url = rtrim($url,'/');
 
@@ -20,7 +20,7 @@ class Core{
                 array_shift($matches);
 
                 if($route['method'] != Request::method()):
-                    Responde::json([
+                    Response::json([
                         'status' => 'error',
                         'message' => 'method não aceito.'
                     ],405);
