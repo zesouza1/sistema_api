@@ -125,3 +125,6 @@ class ProdutoController{
 
     }
 }
+
+// so para salvar -> '/^[A-Za-z]+$/' verifica apenas letras
+// so para salver -> '/^[0-9]+$/' verifica apenas numeros
